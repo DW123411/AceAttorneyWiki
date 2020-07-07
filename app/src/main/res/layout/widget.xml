@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/widget_margin"
+    android:id="@+id/widget_layout"
+    android:background="@drawable/widget_background_shape"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@drawable/widget_title_background_shape"
+        android:id="@+id/widget_title_ll"
+        android:textAlignment="center"
+        android:text="RANDOM ACE ATTORNEY QUOTE"
+        android:padding="6dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@drawable/widget_speaker_background_shape"
+        android:id="@+id/textview_speaker"
+        android:layout_margin="8dp"
+        android:padding="2dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="#00000000"
+        android:id="@+id/textview_quote"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="#00000000"
+        android:id="@+id/textview_link"
+        android:layout_gravity="end"
+        android:layout_margin="8dp">
+    </TextView>
+    <ImageView
+        android:id="@+id/widget_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_widget_refresh_foreground"
+        android:background="@drawable/widget_refresh_shape"
+        android:padding="6dp"
+        android:layout_gravity="center"
+        android:contentDescription="Refresh"
+        android:layout_margin="8dp" />
+</LinearLayout>

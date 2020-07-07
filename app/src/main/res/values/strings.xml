@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ace Attorney Wiki</string>
+    <string name="about">O programie</string>
+    <string name="nav_open_drawer">Otwórz szufladę</string>
+    <string name="nav_close_drawer">Zamknij szufladę</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
